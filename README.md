@@ -27,8 +27,8 @@
 - [Project 4 Proposal](Final_Project_Proposal.docx)
 
 ## Processing the Data and Building our Model
-- Merged [College Basketball Players 2009-2021](/Resources/CollegeBasketballPlayers2009-2021.csv) and [Drafted Players 2009-2021](/Resources/DraftedPlayers2009-2021.csv) files and cleaned data to create the [Cleaned College Basketball Players and Drafted Players file](/Resources/Updated_new_draft.csv).
-- Cleaned the [College Basketball Players 2022](/Resources/CollegeBasketballPlayers2022.csv) to use as a [Potential Draft file](/Resources/Potential_Draft.csv).
+- Merged the [College Basketball Players 2009-2021](/Resources/CollegeBasketballPlayers2009-2021.csv) and the [Drafted Players 2009-2021](/Resources/DraftedPlayers2009-2021.csv) files and cleaned the data to create the [Cleaned College Basketball Players and Drafted Players file](/Resources/Updated_new_draft.csv).
+- Cleaned the [College Basketball Players 2022 file](/Resources/CollegeBasketballPlayers2022.csv) to use as a [Potential Draft file](/Resources/Potential_Draft.csv).
 - Built our model using the Random Forest Classifier
   - Feature Importances
     - ![image](Important_Features.PNG)
