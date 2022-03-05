@@ -41,7 +41,7 @@
     - ![image](https://user-images.githubusercontent.com/88349512/156840594-afe6ca12-946b-4909-9fa5-1fe8e6dbe6be.png)
 
 ## Visualizations and Website
-- We used Tableau for our visuals and embedded them into our [NBA Draft Predictions Website](https://wwatkins142.github.io/project-4-team-pikachu/)
+- We used [Tableau](https://public.tableau.com/views/NBADraftViz2/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) for our visuals and embedded them into our [NBA Draft Predictions Website](https://wwatkins142.github.io/project-4-team-pikachu/)
 
 ## Limitations
 - NBA looks for specific draft positions based on the needs of the team
