@@ -44,14 +44,17 @@
 - We used Tableau for our visuals and embedded them into our [NBA Draft Predictions Website](https://wwatkins142.github.io/project-4-team-pikachu/)
 
 ## Limitations
-- NBA looks for specific draft positions
-- G-league or International players dropped due to null values
+- NBA looks for specific draft positions based on the needs of the team
+- Draft probability is relative to other players in the dataset
+  - Dataset doesn’t include some top draft prospects (G-league or International players)
 - Less than 1% of dataset removed during merge due to wildcard characters
   - Example: Cam Thomas vs. Cameron Thomas
 - Want to fit the model to columns that have different datatypes
-- College Basketball Players csv datasets did not have guides to what each column meant
+  - Example: conference column is a string datatype
+- Our dataset did not come with a data dictionary
 
 ## Future Considerations
 #### *What We'd Like to Add to the Project When We Have More Time*
 - Section on the website to predict NBA draft probability based on stats inputted
 - Dropdown menu for user to select player to view their draft probability and other stats
+- Included more features in the Random Forest Classifier model
