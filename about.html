@@ -16,8 +16,7 @@
         <div class="container">
             <div class="row">
               <div class="col-md-12 jumbotron text-center">
-                <h1>NBA Draft Predictions</h1>
-                <p>Project 4</p>
+                <h1>2022 NBA Draft Predictions</h1>
               </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -30,34 +29,109 @@
                   <div class="collapse navbar-collapse col-md-3 offset-md-2" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                       <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home </a>
+                        <a class="nav-link" href="index.html">Probabilities </a>
                       </li>
                       <li class="nav-item col-md-3 offset-md-3">
-                        <a class="nav-link" href="playerdraft.html">Draft Picks</a>
+                        <a class="nav-link" href="playerdraft.html">Eligible Prospects</a>
                         
                       </li>
                       <li class="nav-item col-md-3 offset-md-3">
-                        <a class="nav-link" href="#">Graph2</a>
+                        <a class="nav-link" href="conference_breakdown.html">Conference Breakdown</a>
                       </li>
                       <li class="nav-item col-md-3 offset-md-3">
-                        <a class="nav-link" href="#">Graph 3</a>
+                        <a class="nav-link active" href="about.html">About
+                          <span class="visually-hidden">(current)</span>
+                        </a>
                       </li>
-                      <li class="nav-item dropdown col-md-3 offset-md-3">
-                        <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="about.html">About
-                            <span class="visually-hidden">(current)</span>
-                          </a>
-                          <a class="dropdown-item" href="feature_importances.html">Feature Importance</a>
-                          
-                        </div>
-                      </li>
+                      
                     </ul>
                     
                   </div>
                 </div>
               </nav>
-              <div class='tableauPlaceholder' id='viz1646354907083' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CollegeBasketball_16462749897180&#47;Players' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1646354907083');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+              <div class="card border-warning mb-3" style="max-width: 80rem;">
+                
+                <div class="card-body">
+                  <h4 class="card-title">Objective</h4>
+                  <p class="card-text">Create an accurate predictor of whether a 2022 college basketball player is likely to be drafted into the NBA using a subset of their college statistics</p>
+                </div>
+              </div>
+              <div class="card border-warning mb-3" style="max-width: 80rem;">
+                
+                <div class="card-body">
+                  <h4 class="card-title">Method</h4>
+                  <p class="card-text">Using a Random Forest Classifier which took in 10 statistics from a dataset of college players from 2009-2021 (Games Played, Minutes Percentage, Offensive Rating, True-Shooting Percentage, Assist Percentage, Turnover Percentage, Block Percentage, Points Over Replacement Per Adjusted Game, Adjusted Offensive Efficiency) we trained our model to output draft probabilities for a player from 2022 given those same statistics.</p>
+                </div>
+              </div>
+              <div class="card border-warning mb-3" style="max-width: 80rem;">
+                
+                <div class="card-body">
+                  <h4 class="card-title">Results</h4>
+                  <p class="card-text">See for yourself!</p>
+                  <a href="index.html">Probabilities</a><br>
+                  <a href="playerdraft.html">Eligible Prospects</a><br>
+                  <a href="conference_breakdown.html">Conference Breakdown</a>
+                </div>
+              </div>
+              <table class="table table-hover">
+                <thead>
+                  <tr class="table-light">
+                    <th scope="col">Starting Lineup</th>
+                    <th scope="col">Biography</th>
+                    <th scope="col">Favorite College Team</th>
+                    <th scope="col">Favorite NBA Team</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr class="table-warning">
+                    <th scope="row">Steven Broyles</th>
+                    <td>Although I graduated from Emory University my parents are both alumni of Vanderbilt University therefore I grew up supporting them in College Basketball!</td>
+                    <td><img src= "/static/images/vandy_star_logo.jpeg"height=150 width=150></img></td>
+                    <td><img src= "/static/images/Hawks.png"height=150 width=150></img></td>
+                  </tr>
+                  
+                  <tr class="table-light">
+                    <th scope="row">Ryan "Fin" Finley</th>
+                    <td>Born and raised in South Florida, I went to the University of Florida for college. But I'm all about that #HeatCulture.</td>
+                    <td><img src= "/static/images/florida_gators.jpeg"height=150 width=150></img></td>
+                    <td><img src= "/static/images/Miami_heat2png.png"height=150 width=150></img></td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">Cornelia "Ceci" Hinton</th>
+                    <td>Born and raised in Atlanta, GA! Georgia State Alumnae for my BS and MPH from Georgia Southern (GATA). ATL For Life!</td>
+                    <td><img src= "/static/images/GeorgiaState.jpg"height=150 width=150></img></td>
+                    <td><img src= "/static/images/Hawks.png"height=150 width=150></img></td>
+                  </tr>
+                  
+                  <tr class="table-light">
+                    <th scope="row">Thea James</th>
+                    <td>Column content</td>
+                    <td><img src= "/static/images/florida_gators.jpeg"height=150 width=150></img></td>
+                    <td><img src= "/static/images/miami-heat.jpeg"height=150 width=150></img></td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">Jennifer Long</th>
+                    <td>Kennesaw State University is my alma mater for two previous degrees and I've lived in Georgia my whole life, so go Hawks!</td>
+                    <td><img src= "/static/images/KennesawState.png"height=150 width=150></img></td>
+                    <td><img src= "/static/images/Hawks.png"height=150 width=150></img></td>
+                  </tr>
+                  
+                  <tr class="table-light">
+                    <th scope="row">Hazel Morris</th>
+                    <td>Column content</td>
+                    <td><img src= "/static/images/florida_gators.jpeg"height=150 width=150></img></td>
+                    <td><img src= "/static/images/miami-heat.jpeg"height=150 width=150></img></td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">Wesley Watkins</th>
+                    <td>Go Heels! UNC grad and repping Charlotte, NC </td>
+                    <td><img src= "/static/images/north-carolina-tar-heels-basketball.png"height=150 width=150></img></td>
+                    <td><img src= "/static/images/Hornets.png"height=150 width=150></img></td>
+                  </tr>
+
+                </tbody>
+              </table> 
         </div>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
